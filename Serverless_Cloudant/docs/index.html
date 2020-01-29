@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Guestbook - Una aplicacion web SERVERLESS</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css">
+</head>
+
+<body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title is-1">
+        Guestbook
+      </h1>
+      <p class="subtitle">
+        Una aplicacion web SERVERLESS
+      </p>
+
+      <div class="columns">
+        <div class="column">
+          <h3 class="title is-3">
+            Mensajes de visitantes anteriores
+          </h3>
+          <div style="background : #ffffff;
+            color : #000000;
+            padding : 4px;
+            width : 500px;
+            height : 400px;
+            overflow : auto; ">
+          <div id="entries"></div>
+        </div>
+        </div>
+        <div class="column">
+          <h3 class="title is-3">
+            Agrega tu mensaje
+          </h3>
+          <form id="addEntry">
+            <div class="field">
+              <label class="label">Nombre</label>
+              <div class="control">
+                <input class="input" type="text" placeholder="your name" id="nombre">
+              </div>
+            </div>
+            <div class="field">
+              <label class="label">Email</label>
+              <div class="control">
+                <input class="input" type="text" placeholder="your email" id="correo">
+              </div>
+            </div>
+            <div class="field">
+              <label class="label">Comentario</label>
+              <div class="control">
+                <textarea class="textarea" placeholder="your comment" id="comentario"></textarea>
+              </div>
+            </div>
+            <div class="control">
+              <button class="button is-primary">Enviar mensaje</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script id="entries-template" type="text/x-handlebars-template">
+    {{#each entries}}
+    <div class="box">
+      <article class="media">
+        <div class="media-left">
+          <figure class="image is-64x64">
+            <img src="{{icon}}" alt="No Image">
+          </figure>
+        </div>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>{{nombre}}</strong> <small>{{correo}}</small>
+              <br> {{comentario}}
+            </p>
+          </div>
+        </div>
+      </article>
+    </div>
+    {{/each}}
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="guestbook.js"></script>
+</body>
+
+</html>
