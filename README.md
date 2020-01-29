@@ -65,6 +65,6 @@ Puede tener una implementación continua hacia Kubernetes.
 [img-cloud-CD]: https://img.shields.io/badge/IBM-Continuous%20Dlivery-blue.svg
 [url-ibmcloud-CD]: https://www.ibm.com/cloud/continuous-delivery
 [img-gitcloud-CD]: https://img.shields.io/badge/GIT-IBM%20Cloud%20Continuous%20Delivery-blueviolet.svg
-[url-gitibmcloud-CD]: /IBM_Recipe-Continuous_Delivery
+[url-gitibmcloud-CD]: /Continuous_Delivery
 [img-gitcloud-kubernetes]: https://img.shields.io/badge/GIT-IBM%20Cloud%20Kubernetes-blueviolet.svg
-[url-gitibmcloud-kubernetes]: /IBM_Recipe-Kubernetes
+[url-gitibmcloud-kubernetes]: /Kubernetes
