@@ -19,6 +19,11 @@ O puede tener una analisis de registros supervisar estados de una aplicación.
 
 Puedes encontrar más información en el siguiente video: [![YouTube][img-youtube]][youtube-url]
 
+## Antes de empezar te recomendamos:
+* Realizar el [PreWork](#Prework).
+* Si eres estudiante o profesor y tienes correo institucional te recomendamos los [Cupones](#Cupones).
+* Si tienes algun codigo promocional te decimos como [Aplicarlo](#Cargar-créditos-en-IBM-Cloud)
+
 ## Conoceras que herramientas como:
 1. ### Functions de IBM Cloud. <br>
 Plataforma de IBM cloud de programacion poliglota FaaS (Functions-as-a-Service) para desarrollo de codigo ligero que escala dependiendo de la demanda.
@@ -41,12 +46,35 @@ Puede tener una implementación continua hacia Kubernetes.
 * [![Continuous-Delivery][img-cloud-CD]][url-ibmcloud-CD] Para más información.
 * [![Git-Continuous-Delivery][img-gitcloud-CD]][url-gitibmcloud-CD] Para crear uno.
 
+## Prework:
+* Cuenta de [IBM Cloud][url-IBMCLOUD]
+* Instalar [CLI de IBM Cloud][url-CLI-IBMCLOUD] 
+* Cuenta en [GitHub][url-github-join]
+* Instalar [CLI de GitHub][url-github-cli] o instalar [GitHub Desktop][url-githubdesktop]
+* Instalar [NodeJS][url-node]
+* Utilizar safari, chrome, firefox, edge
 
+## Cupones
 
+* Acceder al HUB para Software para uso académico. Y navegar hasta la parte de abajo de la pagina https://onthehub.com/ibm/?utm_sourc=ibm-ai-productpage&utm_medium=onthehubproductpage&utm_campaign=IBM
+* Buscar el WebStore del instituto/escuela al que perteneces.
+* En caso de no contar con WebStore, acceder al portal de IBM Academic Initiative y seleccionar la opción de Seleccionar para IBM Bluemix – 6 Month Trial.
+* Realizar el registro correspondiente utilizando la cuenta de correo académica
 
+## Cargar créditos en IBM Cloud
 
+* En la parte superior derecha, buscaremos la parte de "MANAGE"/"GESTIONAR", nos desplegara una lista y seleccionaremos "Account"/"Cuenta".
+* De lado izquierdo, tendremos una opción "Account settings"/"Configuracion de cuenta".
+* Bajamos un poco hasta encontrar "Subscription and feature codes"/"Codigos de suscripción y carateristicas".
+* Da click en "Apply code"/"Aplicar codigo".
+* Ingresamos el codigo y click en "Apply"/"Aplicar".
 
-
+[url-IBMCLOUD]: https://cloud.ibm.com/registration
+[url-CLI-IBMCLOUD]: https://cloud.ibm.com/docs/cli/reference/ibmcloud?topic=cloud-cli-install-ibmcloud-cli
+[url-github-join]: https://github.com/join
+[url-github-cli]: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+[url-githubdesktop]: https://desktop.github.com/
+[url-node]: https://nodejs.org/es/download/
 
 [img-youtube]: https://img.shields.io/badge/IBM%20Cloud-YouTube-critical.svg
 [youtube-url]: https://www.youtube.com/watch?time_continue=14&v=oUpqXxmr6oU&feature=emb_logo
