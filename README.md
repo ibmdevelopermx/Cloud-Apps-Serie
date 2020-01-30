@@ -21,8 +21,8 @@ Puedes encontrar más información en el siguiente video: [![YouTube][img-youtub
 
 ## Antes de empezar te recomendamos:
 * Realizar el [PreWork](#Prework).
-* Si eres estudiante o profesor y tienes correo institucional te recomendamos los [Cupones](#Cupones).
-* Si tienes algun codigo promocional te decimos como [Aplicarlo](#Cargar-créditos-en-IBM-Cloud)
+* Si eres estudiante o profesor y tienes correo institucional te recomendamos los [Cupones](#Cupones-para-profesores-y-estudiantes).
+* Si tienes algun codigo promocional te decimos como [Aplicarlos](#Cargar-créditos-en-IBM-Cloud).
 
 ## Conoceras que herramientas como:
 1. ### Functions de IBM Cloud. <br>
@@ -56,14 +56,14 @@ Puede tener una implementación continua hacia Kubernetes.
 * Instalar [NodeJS][url-node]
 * Utilizar safari, chrome, firefox, edge
 
-## Cupones
+## Cupones para profesores y estudiantes:
 
-* Acceder al HUB para Software para uso académico. Y navegar hasta la parte de abajo de la pagina https://onthehub.com/ibm/?utm_sourc=ibm-ai-productpage&utm_medium=onthehubproductpage&utm_campaign=IBM
+* Acceder al HUB para Software para uso académico. Y navegar hasta la parte de abajo de la pagina [onthehub][url-onthehub]. 
 * Buscar el WebStore del instituto/escuela al que perteneces.
-* En caso de no contar con WebStore, acceder al portal de IBM Academic Initiative y seleccionar la opción de Seleccionar para IBM Bluemix – 6 Month Trial.
+* En caso de no contar con WebStore, acceder al portal de [IBM Academic Initiative][url-academic] y seleccionar la opción "Register now". Seleccionar para IBM Bluemix – 6 Month Trial.
 * Realizar el registro correspondiente utilizando la cuenta de correo académica
 
-## Cargar créditos en IBM Cloud
+## Cargar créditos en IBM Cloud:
 
 * En la parte superior derecha, buscaremos la parte de "MANAGE"/"GESTIONAR", nos desplegara una lista y seleccionaremos "Account"/"Cuenta".
 * De lado izquierdo, tendremos una opción "Account settings"/"Configuracion de cuenta".
@@ -71,6 +71,8 @@ Puede tener una implementación continua hacia Kubernetes.
 * Da click en "Apply code"/"Aplicar codigo".
 * Ingresamos el codigo y click en "Apply"/"Aplicar".
 
+[url-academic]: https://my15.digitalexperience.ibm.com/b73a5759-c6a6-4033-ab6b-d9d4f9a6d65b/dxsites/151914d1-03d2-48fe-97d9-d21166848e65/home/
+[url-onthehub]: https://onthehub.com/ibm/?utm_sourc=ibm-ai-productpage&utm_medium=onthehubproductpage&utm_campaign=IBM
 [url-IBMCLOUD]: https://cloud.ibm.com/registration
 [url-CLI-IBMCLOUD]: https://cloud.ibm.com/docs/cli/reference/ibmcloud?topic=cloud-cli-install-ibmcloud-cli
 [url-github-join]: https://github.com/join
