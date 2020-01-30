@@ -2,27 +2,41 @@
 ![](assets/1.png)<br/>
 
 Aprende a crear un Docker con una app en Node.js que escribe datos en una Database en Mongo DB y despliegalo en 2 diferentes pods en Kubernetes!
-# Pre-requisitos
-•	Tener instalado [**Node.js**](https://nodejs.org/es/).<br/>
-•	Tener una cuenta de [**IBM Cloud**](https://cloud.ibm.com/login).<br/>
-•	Instalar [**Docker**](https://www.docker.com/get-started)<br/>
-• Instalar la CLI de [**IBM Cloud**](https://console.bluemix.net/docs/cli/reference/bluemix_cli/get_started)<br/> 
-•	Instalar plugins: Container registry y container service
-###
-    ibmcloud plugin install container-registry -r Bluemix
-    ibmcloud plugin install container-service -r Bluemix
 
-# Cupones para Estudiantes y profesores
-1.	Acceder al [**HUB para Software para uso académico**](https://onthehub.com/ibm/?utm_sourc=ibm-ai-productpage&utm_medium=onthehubproductpage&utm_campaign=IBM). Y navegar hasta la parte de abajo de la pagina  
-2.	Buscar el WebStore del instituto/escuela al que perteneces. 
-3.	En caso de no contar con WebStore, acceder al portal de [**IBM Academic Initiative**](https://my15.digitalexperience.ibm.com/b73a5759-c6a6-4033-ab6b-d9d4f9a6d65b/dxsites/151914d1-03d2-48fe-97d9-d21166848e65/home/), registrarse o iniciar sesión y seleccionar la opción de Students 
-4.	Seleccionar Add to Cart para IBM Bluemix – 6 Month Trial. 
-5.	Realizar el registro correspondiente utilizando la cuenta de correo académica 
+**NOTA IMPORTANTE: Este servicio no tiene version lite, por lo que necesitaras creditos para crearlo y usarlo**
 
-# Cargar créditos en IBM Cloud (Se necesita para acceder a Kubernetes en IBM Cloud)
-1.	Ingresamos a nuestro panel de control de IBM Cloud (console.bluemix.net)
-2.	Una vez que tengamos el código nos vamos a Gestionar>Facturación y Uso>Facturación
-3.	Buscamos “Códigos de características (Promocionales)”
+## Prework:
+* Cuenta de [IBM Cloud][url-IBMCLOUD]
+* Instalar [CLI de IBM Cloud][url-CLI-IBMCLOUD] 
+* Cuenta en [GitHub][url-github-join]
+* Instalar [CLI de GitHub][url-github-cli] o instalar [GitHub Desktop][url-githubdesktop]
+* [NodeJS][url-node]
+* Utilizar safari, chrome, firefox, edge
+
+**Si eres estudiante o profesor, puedes obtener creditos por si quieres usar servicios que estan fuera de la versión lite. Lo puedes hacer de la siguiente manera. (Solo es necesario hacerlo una vez)**
+### Cupones para Estudiantes y profesores
+
+* Acceder al HUB para Software para uso académico. Y navegar hasta la parte de abajo de la pagina https://onthehub.com/ibm/?utm_sourc=ibm-ai-productpage&utm_medium=onthehubproductpage&utm_campaign=IBM
+* Buscar el WebStore del instituto/escuela al que perteneces.
+* En caso de no contar con WebStore, acceder al portal de IBM Academic Initiative y seleccionar la opción de Seleccionar para IBM Bluemix – 6 Month Trial.
+* Realizar el registro correspondiente utilizando la cuenta de correo académica
+
+**Si tienes algun cupon para creditos de IBM Cloud, lo puedes cargar de la siguiente manera.**
+### Cargar créditos en IBM Cloud
+
+* En la parte superior derecha, buscaremos la parte de "MANAGE"/"GESTIONAR", nos desplegara una lista y seleccionaremos "Account"/"Cuenta".
+* De lado izquierdo, tendremos una opción "Account settings"/"Configuracion de cuenta".
+* Bajamos un poco hasta encontrar "Subscription and feature codes"/"Codigos de suscripción y carateristicas".
+* Da click en "Apply code"/"Aplicar codigo".
+* Ingresamos el codigo y click en "Apply"/"Aplicar".
+
+[url-IBMCLOUD]: https://cloud.ibm.com/registration
+[url-CLI-IBMCLOUD]: https://cloud.ibm.com/docs/cli/reference/ibmcloud?topic=cloud-cli-install-ibmcloud-cli
+[url-github-join]: https://github.com/join
+[url-github-cli]: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+[url-githubdesktop]: https://desktop.github.com/
+[url-node]: https://nodejs.org/es/download/
+
 
 # Dockerizar y push a Container Registry
 1. Accedemos a la terminal de nuestra PC (Asegúrate de tener instalado el CLI de IBM Cloud)

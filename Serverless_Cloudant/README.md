@@ -21,29 +21,30 @@ Agenda
 * [Despliegue de Aplicación](#Despliegue)
 
 
-
-
-
 ## Prework:
 * Cuenta de [IBM Cloud][url-IBMCLOUD]
 * Instalar [CLI de IBM Cloud][url-CLI-IBMCLOUD] 
 * Cuenta en [GitHub][url-github-join]
+* Instalar [CLI de GitHub][url-github-cli] o instalar [GitHub Desktop][url-githubdesktop]
+* [NodeJS][url-node]
 * Utilizar safari, chrome, firefox, edge
 
+**Si eres estudiante o profesor, puedes obtener creditos por si quieres usar servicios que estan fuera de la versión lite. Lo puedes hacer de la siguiente manera. (Solo es necesario hacerlo una vez)**
 ### Cupones para Estudiantes y profesores
- 
 
-	1.	Acceder al HUB para Software para uso académico. Y navegar hasta la parte de abajo de la pagina https://onthehub.com/ibm/?utm_sourc=ibm-ai-productpage&utm_medium=onthehubproductpage&utm_campaign=IBM 
-	2.	Buscar el WebStore del instituto/escuela al que perteneces. 
-	3.	En caso de no contar con WebStore, acceder al portal de IBM Academic Initiative y seleccionar la opción de <Students> 
-	4.	Seleccionar <Add to Cart> para IBM Bluemix – 6 Month Trial. 
-	5.	Realizar el registro correspondiente utilizando la cuenta de correo académica 
- 
+* Acceder al HUB para Software para uso académico. Y navegar hasta la parte de abajo de la pagina https://onthehub.com/ibm/?utm_sourc=ibm-ai-productpage&utm_medium=onthehubproductpage&utm_campaign=IBM
+* Buscar el WebStore del instituto/escuela al que perteneces.
+* En caso de no contar con WebStore, acceder al portal de IBM Academic Initiative y seleccionar la opción de Seleccionar para IBM Bluemix – 6 Month Trial.
+* Realizar el registro correspondiente utilizando la cuenta de correo académica
+
+**Si tienes algun cupon para creditos de IBM Cloud, lo puedes cargar de la siguiente manera.**
 ### Cargar créditos en IBM Cloud
-	1.	Ingresamos a nuestro panel de control de IBM Cloud (cloud.ibm.com)
-	2.	Una vez que tengamos el código nos vamos a Gestionar>Facturación y Uso>Facturación
-	3.	Buscamos “Códigos de características (Promocionales)”
 
+* En la parte superior derecha, buscaremos la parte de "MANAGE"/"GESTIONAR", nos desplegara una lista y seleccionaremos "Account"/"Cuenta".
+* De lado izquierdo, tendremos una opción "Account settings"/"Configuracion de cuenta".
+* Bajamos un poco hasta encontrar "Subscription and feature codes"/"Codigos de suscripción y carateristicas".
+* Da click en "Apply code"/"Aplicar codigo".
+* Ingresamos el codigo y click en "Apply"/"Aplicar".
 
 ## Crear y configurar Cloudant DB:
 1.De nuestro catálogo en cloud.ibm.com buscamos Cloudant.
