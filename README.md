@@ -58,10 +58,11 @@ Puede tener una implementación continua hacia Kubernetes.
 
 ## Cupones para profesores y estudiantes:
 
-* Acceder al HUB para Software para uso académico. Y navegar hasta la parte de abajo de la pagina [onthehub][url-onthehub]. 
-* Buscar el WebStore del instituto/escuela al que perteneces.
-* En caso de no contar con WebStore, acceder al portal de [IBM Academic Initiative][url-academic] y seleccionar la opción "Register now". Seleccionar para IBM Bluemix – 6 Month Trial.
-* Realizar el registro correspondiente utilizando la cuenta de correo académica
+* Acceder al portal de [IBM Academic Initiative][url-academic] y seleccionar la opción "Register now" si aun no tienes cuenta.
+* Realizar el registro correspondiente utilizando la cuenta de correo académica y confirma tu cuenta.
+* Despues de confirmar tu cuenta, y con la sesion iniciada en IBM Academic Initiative, en la parte de "Most Popular Topics covered", encontraremos **IBM Cloud** y damos click en "Learn more".
+* Bajamos de la pagina hasta encontrar "Software". Le damos click, nos dara un apartado que se llama "Request Feature Code".
+* Nos dara nuestro codigo. Lo copiamos y lo llevamos a **IBM Cloud**.
 
 ## Cargar créditos en IBM Cloud:
 
