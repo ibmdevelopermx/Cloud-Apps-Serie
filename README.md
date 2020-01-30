@@ -36,6 +36,8 @@ Obtenga escala y diversidad de cargas de trabajo, seguridad y conformidad de mej
 * [![Kubernetes][img-cloud-kubernetes]][url-ibmcloud-kubernetes] Para obtener mayor información.
 * [![Kubernetesgit][img-gitcloud-kubernetes]][url-gitibmcloud-kubernetes] Para crear uno.
 
+**NOTA IMPORTANTE: Este servicio no tiene version lite, por lo que necesitaras creditos para crearlo y usarlo**
+
 3. ### IBM Continuous Delivery. <br>
 Adopte DevOps de una manera preparada para la empresa. Cree cadenas de herramientas que den soporte a sus tareas de entrega de aplicaciones. Automatice compilaciones, pruebas, implementaciones y más.
 <br>
