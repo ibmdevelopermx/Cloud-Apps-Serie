@@ -10,11 +10,21 @@ Plataforma de IBM cloud de programacion poliglota FaaS (Functions-as-a-Service) 
 
 Para mayor informacion: [![Functions][img-cloud-functions]][url-ibmcloud-Functions]
 
+## Antes de empezar te recomendamos:
+* Realizar el [PreWork][url-prework].
+* Si eres estudiante o profesor y tienes correo institucional te recomendamos los [Cupones][url-cupones].
+* Si tienes algun codigo promocional te decimos como [Aplicarlos][url-aplica].
+
+[url-prework]: https://github.com/ibmdevelopermx/Cloud-Apps-Serie#Prework
+[url-cupones]: https://github.com/ibmdevelopermx/Cloud-Apps-Serie#Cupones-para-profesores-y-estudiantes
+[url-aplica]: https://github.com/ibmdevelopermx/Cloud-Apps-Serie#Cargar-cr%C3%A9ditos-en-IBM-Cloud
+
+
+
 ## IBM Developer Advocates Team
 
 Módulo: Serverless	
 Agenda
-* [Prework](#Prework)
 * [Crear y configurar Cloudant DB](#Crear-y-configurar-Cloudant-DB)
 * [Configuración de Functions](#Configuración-de-Functions)
 * [Configuración de API](#Configurar-el-API)

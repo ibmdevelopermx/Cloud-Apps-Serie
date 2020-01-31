@@ -5,6 +5,16 @@ Aprende a crear un Docker con una app en Node.js que escribe datos en una Databa
 
 **NOTA IMPORTANTE: Este servicio no tiene version lite, por lo que necesitaras creditos para crearlo y usarlo**
 
+## Antes de empezar te recomendamos:
+* Realizar el [PreWork][url-prework].
+* Si eres estudiante o profesor y tienes correo institucional te recomendamos los [Cupones][url-cupones].
+* Si tienes algun codigo promocional te decimos como [Aplicarlos][url-aplica].
+
+[url-prework]: https://github.com/ibmdevelopermx/Cloud-Apps-Serie#Prework
+[url-cupones]: https://github.com/ibmdevelopermx/Cloud-Apps-Serie#Cupones-para-profesores-y-estudiantes
+[url-aplica]: https://github.com/ibmdevelopermx/Cloud-Apps-Serie#Cargar-cr%C3%A9ditos-en-IBM-Cloud
+
+
 # Dockerizar y push a Container Registry
 1. Accedemos a la terminal de nuestra PC (Asegúrate de tener instalado el CLI de IBM Cloud)
 2. Realizamos login a IBM Cloud

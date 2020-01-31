@@ -2,6 +2,16 @@
 Despliega una app en Continuous Delivery utilizando DevOps con Kubernetes y Helm
 ![](assets/a1.png)<br/>
 
+## Antes de empezar te recomendamos:
+* Realizar el [PreWork][url-prework].
+* Si eres estudiante o profesor y tienes correo institucional te recomendamos los [Cupones][url-cupones].
+* Si tienes algun codigo promocional te decimos como [Aplicarlos][url-aplica].
+
+[url-prework]: https://github.com/ibmdevelopermx/Cloud-Apps-Serie#Prework
+[url-cupones]: https://github.com/ibmdevelopermx/Cloud-Apps-Serie#Cupones-para-profesores-y-estudiantes
+[url-aplica]: https://github.com/ibmdevelopermx/Cloud-Apps-Serie#Cargar-cr%C3%A9ditos-en-IBM-Cloud
+
+
 ## Crear un cluster
 En caso de no tener instalado el plugin container-service, corer el siguiente commando:
 ###
