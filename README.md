@@ -95,7 +95,7 @@ Puede tener una implementación continua hacia Kubernetes.
 [appid-url]: https://github.com/ibmdevelopermx/Events_And_Users_FollowUp_App
 [img-cloud-kubernetes]: https://img.shields.io/badge/IBM%20Cloud-Kubernetes%20Services-blue.svg
 [url-ibmcloud-kubernetes]: https://www.ibm.com/cloud/container-service/
-[img-cloud-CD]: https://img.shields.io/badge/IBM-Continuous%20Dlivery-blue.svg
+[img-cloud-CD]: https://img.shields.io/badge/IBM-Continuous%20Delivery-blue.svg
 [url-ibmcloud-CD]: https://www.ibm.com/cloud/continuous-delivery
 [img-gitcloud-CD]: https://img.shields.io/badge/GIT-IBM%20Cloud%20Continuous%20Delivery-blueviolet.svg
 [url-gitibmcloud-CD]: /Continuous_Delivery
