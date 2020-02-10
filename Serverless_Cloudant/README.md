@@ -19,7 +19,10 @@ Para mayor informacion: [![Functions][img-cloud-functions]][url-ibmcloud-Functio
 [url-cupones]: https://github.com/ibmdevelopermx/Cloud-Apps-Serie#Cupones-para-profesores-y-estudiantes
 [url-aplica]: https://github.com/ibmdevelopermx/Cloud-Apps-Serie#Cargar-cr%C3%A9ditos-en-IBM-Cloud
 
+## Repo para Fork y Clone:
+* [Serverless Cloudant][url-repo].
 
+[url-repo]: https://github.com/ibmdevelopermx/Serverless_Cloudant
 
 ## IBM Developer Advocates Team
 

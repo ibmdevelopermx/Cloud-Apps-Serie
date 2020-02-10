@@ -1,4 +1,4 @@
-# IBM Recipe - Kubernetes
+# IBM Kubernetes
 ![](assets/1.png)<br/>
 
 Aprende a crear un Docker con una app en Node.js que escribe datos en una Database en Mongo DB y despliegalo en 2 diferentes pods en Kubernetes!
@@ -13,6 +13,11 @@ Aprende a crear un Docker con una app en Node.js que escribe datos en una Databa
 [url-prework]: https://github.com/ibmdevelopermx/Cloud-Apps-Serie#Prework
 [url-cupones]: https://github.com/ibmdevelopermx/Cloud-Apps-Serie#Cupones-para-profesores-y-estudiantes
 [url-aplica]: https://github.com/ibmdevelopermx/Cloud-Apps-Serie#Cargar-cr%C3%A9ditos-en-IBM-Cloud
+
+## Repositoiro para Fork y Clone:
+* [Kubernetes][url-repo]
+
+[url-repo]: https://github.com/ibmdevelopermx/Kubernetes
 
 
 # Dockerizar y push a Container Registry
