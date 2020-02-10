@@ -1,4 +1,4 @@
-# IBM Continuous Delivery
+# IBM Kubernetes Continuous Delivery
 Despliega una app en Continuous Delivery utilizando DevOps con Kubernetes y Helm
 ![](assets/a1.png)<br/>
 
