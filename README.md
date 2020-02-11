@@ -38,15 +38,15 @@ Obtenga escala y diversidad de cargas de trabajo, seguridad y conformidad de mej
 
 **NOTA IMPORTANTE: Este servicio no tiene version lite, por lo que necesitaras creditos para crearlo y usarlo**
 
-3. ### IBM Continuous Delivery. <br>
+3. ### IBM Kubernetes Continuous Delivery. <br>
 Adopte DevOps de una manera preparada para la empresa. Cree cadenas de herramientas que den soporte a sus tareas de entrega de aplicaciones. Automatice compilaciones, pruebas, implementaciones y más.
 <br>
 Puede tener una implementación continua hacia Kubernetes.
 ![](img/im4.png)
 <br>
 
-* [![Continuous-Delivery][img-cloud-CD]][url-ibmcloud-CD] Para más información.
-* [![Git-Continuous-Delivery][img-gitcloud-CD]][url-gitibmcloud-CD] Para crear uno.
+* [![kContinuous-Delivery][img-cloud-kCD]][url-ibmcloud-kCD] Para más información.
+* [![Git-Continuous-Delivery][img-gitcloud-kCD]][url-gitibmcloud-kCD] Para crear uno.
 
 ## Prework:
 * Cuenta de [IBM Cloud][url-IBMCLOUD]
@@ -95,9 +95,9 @@ Puede tener una implementación continua hacia Kubernetes.
 [appid-url]: https://github.com/ibmdevelopermx/Events_And_Users_FollowUp_App
 [img-cloud-kubernetes]: https://img.shields.io/badge/IBM%20Cloud-Kubernetes%20Services-blue.svg
 [url-ibmcloud-kubernetes]: https://www.ibm.com/cloud/container-service/
-[img-cloud-CD]: https://img.shields.io/badge/IBM-Continuous%20Delivery-blue.svg
-[url-ibmcloud-CD]: https://www.ibm.com/cloud/continuous-delivery
-[img-gitcloud-CD]: https://img.shields.io/badge/GIT-IBM%20Cloud%20Continuous%20Delivery-blueviolet.svg
-[url-gitibmcloud-CD]: /Continuous_Delivery
+[img-cloud-kCD]: https://img.shields.io/badge/IBM-Continuous%20Delivery-blue.svg
+[url-ibmcloud-kCD]: https://www.ibm.com/cloud/continuous-delivery
+[img-gitcloud-kCD]: https://img.shields.io/badge/GIT-IBM%20Cloud%20Continuous%20Delivery-blueviolet.svg
+[url-gitibmcloud-kCD]: /Continuous_Delivery
 [img-gitcloud-kubernetes]: https://img.shields.io/badge/GIT-IBM%20Cloud%20Kubernetes-blueviolet.svg
 [url-gitibmcloud-kubernetes]: /Kubernetes
