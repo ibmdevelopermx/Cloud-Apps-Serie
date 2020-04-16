@@ -74,7 +74,7 @@ Puede tener una implementación continua hacia Kubernetes.
 
 [url-academic]: https://my15.digitalexperience.ibm.com/b73a5759-c6a6-4033-ab6b-d9d4f9a6d65b/dxsites/151914d1-03d2-48fe-97d9-d21166848e65/home/
 [url-onthehub]: https://onthehub.com/ibm/?utm_sourc=ibm-ai-productpage&utm_medium=onthehubproductpage&utm_campaign=IBM
-[url-IBMCLOUDP]: https://cloud.ibm.com/registration
+[url-IBMCLOUD]: https://cloud.ibm.com/registration
 [url-CLI-IBMCLOUD]: https://cloud.ibm.com/docs/cli/reference/ibmcloud?topic=cloud-cli-install-ibmcloud-cli
 [url-github-join]: https://github.com/join
 [url-github-cli]: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
@@ -84,7 +84,7 @@ Puede tener una implementación continua hacia Kubernetes.
 [img-youtube]: https://img.shields.io/badge/IBM%20Cloud-YouTube-critical.svg
 [youtube-url]: https://www.youtube.com/watch?time_continue=14&v=oUpqXxmr6oU&feature=emb_logo
 [img-ibmcloud-powered]: https://img.shields.io/badge/IBM%20Cloud-Powered-blue.svg
-[url-ibmcloud]: https://www.ibm.com/cloud/
+[url-ibmcloudP]: https://www.ibm.com/cloud/
 [img-cloud-functions]: https://img.shields.io/badge/IBM%20cloud-Functions-blue.svg
 [url-ibmcloud-Functions]: https://www.ibm.com/cloud/functions
 [img-ibmcloudfoundry]: https://img.shields.io/badge/IBM-Cloud%20Foundry-blue.svg
