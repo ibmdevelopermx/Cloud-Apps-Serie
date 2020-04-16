@@ -1,7 +1,7 @@
 # Bootcamp-Cloud-Apps
 En este bootcamp conoceras las herramientas de IBM Cloud, asosciadas con **Cloud Foundry**. Que te permitira desplegar y escalar apps sin configuraciones manuales y mantenimiendo servidores.
 
-Estas herramientas las encontraras en [![IBM Cloud Powered][img-ibmcloud-powered]][url-ibmcloud]<br>
+Estas herramientas las encontraras en [![IBM Cloud Powered][img-ibmcloud-powered]][url-ibmcloudP]<br>
 Podras encontrar más información en [![IBM Cloud Foundry][img-ibmcloudfoundry]][url-ibmcloudfoundry]
 
 ## ¿Qué es Cloud Foundry?
@@ -74,7 +74,7 @@ Puede tener una implementación continua hacia Kubernetes.
 
 [url-academic]: https://my15.digitalexperience.ibm.com/b73a5759-c6a6-4033-ab6b-d9d4f9a6d65b/dxsites/151914d1-03d2-48fe-97d9-d21166848e65/home/
 [url-onthehub]: https://onthehub.com/ibm/?utm_sourc=ibm-ai-productpage&utm_medium=onthehubproductpage&utm_campaign=IBM
-[url-IBMCLOUD]: https://cloud.ibm.com/registration
+[url-IBMCLOUDP]: https://cloud.ibm.com/registration
 [url-CLI-IBMCLOUD]: https://cloud.ibm.com/docs/cli/reference/ibmcloud?topic=cloud-cli-install-ibmcloud-cli
 [url-github-join]: https://github.com/join
 [url-github-cli]: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
