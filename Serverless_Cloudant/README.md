@@ -36,30 +36,30 @@ Agenda
 
 ## Crear y configurar Cloudant DB:
 1.De nuestro catálogo en cloud.ibm.com buscamos Cloudant.
-![](img/imc1.png)
+![](img/111.png)
 2.Seleccionamos Cloudant.
-![](img/imc2.png)
+![](img/221.png)
 3.Lo nombramos guestbook-db, seleccionamos Legacy Credentials y IAM, posteriormente creamos una instancia del servicio.
-![](img/imc3.png)
+![](img/331.png)
 4.Ya que el servicio este desplegado y listo para usar, en el tab de “Service Credentials” buscarmo si ya tenemos alguna creada, si no es asi, generamos una nueva credencial, que usaremos más adelante.
-![](img/imc5.png)
-![](img/imc6.png)
-5.Volvemos a la tab de "Manage" y le damos click en “Launch cloudant dashboard”.
-![](img/imc4.png)
+![](img/441.png)
+![](img/5.PNG)
+5.Volvemos a la tab de "Manage" y le damos click en “Launch dashboard”.
+![](img/661.png)
 6.Nos vamos a la tab de lado izquierdo, damos click en "Create Database" y la nombramos "guestbook".
- ![](img/imc7.png)
+ ![](img/771.png)
 
 ## Configuración de Functions
 En esta sección configuraremos nuestro servicio de Functions.
 1. Secuencia de acciones para escribir a la base de datos
 	1. Vamos al catálogo y buscamos **Cloud Functions**.
-	![](img/im1.png)
+	![](img/881.png)
  	2. Una vez dentro seleccionamos "Actions".
-	![](img/im2.png) 
+	![](img/991.png) 
 	3. Damos click en "Create".
-	![](img/im3.png)
-	5. Ponemos el nombre "prepare-entry-for-save" y seleccionamos "Node.js 10" como el Runtime, damos click en "Create".
-	![](img/im4.png)
+	![](img/1011.png)
+	5. Ponemos el nombre "prepare-entry-for-save" y seleccionamos "Node.js 12" como el Runtime, damos click en "Create".
+	![](img/1111.png)
 	6. Cambiamos el código por el siguiente:
 		``` js
 		function main(params) {
@@ -77,19 +77,19 @@ En esta sección configuraremos nuestro servicio de Functions.
 	 	}
 		```
 	7. Lo salvamos.
-	![](img/im5.png)
+	![](img/1211.png)
 	8. Para añadir nuestra acción a una secuencia primero nos vamos al tab “Enclosing Secuences” y damos click en “Add to Sequence”.
-	![](img/im6.png)
+	![](img/1311.png)
  	9.	Para el nombre de la secuencia ponemos "save-guestbook-entry-sequence" y posteriormente damos click en "Create and Add".
-	![](img/im7.png)
+	![](img/1411.png)
 	10.	Una vez que esta creada nuestra secuencia le damos click al nombre de la secuencia "save-guestbook-entry-sequence" y posteriormente damos click en "Add".
-	![](img/im8.png)
+	![](img/1511.png)
  	11.	Damos click en "Use Public" y seleccionamos "Cloudant".
-	![](img/im9.png)
+	![](img/1611.png)
  	12.	Seleccionamos la acción "create-document", damos click en "New Binding", ponemos de nombre de nuestro paquete "binding-for-guestbook" y en "Instance" seleccionamos "Input Your Own Credentials".
-	![](img/im10.png)
+	![](img/1711.png)
  	13.	 Nos desplegara una lista. Para llenar estos datos copiamos las credenciales que tenemos en nuestro servicio de "Cloudant" y damos click en "Add", lo llenamos de la siguiente manera:
-	![](img/im11.png)
+	![](img/18.PNG)
  	14.	Para probar que esté funcionando, damos click en "save" y luego en "change input" e ingresamos nuestro siguiente JSON y damos click en Apply y luego en Invoke
 	 ``` json
 		{
