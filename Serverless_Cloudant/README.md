@@ -88,7 +88,12 @@ En esta sección configuraremos nuestro servicio de Functions.
 	![](img/1611.png)
  	12.	Seleccionamos la acción "create-document", damos click en "New Binding", ponemos de nombre de nuestro paquete "binding-for-guestbook" y en "Instance" seleccionamos "Input Your Own Credentials".
 	![](img/1711.png)
- 	13.	 Nos desplegara una lista. Para llenar estos datos copiamos las credenciales que tenemos en nuestro servicio de "Cloudant" y damos click en "Add", lo llenamos de la siguiente manera:
+ 	13.	 Nos desplegara una lista. Para llenar estos datos copiamos las "credenciales" que tenemos en nuestro servicio de "Cloudant" y damos click en "Add", lo llenamos de la siguiente manera:
+ * Username: Lo que viene en "username" sin comillas
+ * Password: Lo que viene como "password" sin comillas
+ * Host: Lo que viene en "host" sin comillas
+ * Database: el nombre de la base de datos, en este caso es "guestbook"
+ 
 	![](img/18.PNG)
  	14.	Para probar que esté funcionando, damos click en "save" y luego en "change input" e ingresamos nuestro siguiente JSON y damos click en Apply y luego en Invoke
 	 ``` json
