@@ -89,13 +89,17 @@ En esta sección configuraremos nuestro servicio de Functions.
  	12.	Seleccionamos la acción "create-document", damos click en "New Binding", ponemos de nombre de nuestro paquete "binding-for-guestbook" y en "Instance" seleccionamos "Input Your Own Credentials".
 	![](img/1711.png)
  	13.	 Nos desplegara una lista. Para llenar estos datos copiamos las "credenciales" que tenemos en nuestro servicio de "Cloudant" y damos click en "Add", lo llenamos de la siguiente manera:
- * Username: Lo que viene en "username" sin comillas
- * Password: Lo que viene como "password" sin comillas
- * Host: Lo que viene en "host" sin comillas
- * Database: el nombre de la base de datos, en este caso es "guestbook"
+	 * Username: Lo que viene en "username" sin comillas
+	 * Password: Lo que viene como "password" sin comillas
+	 * Host: Lo que viene en "host" sin comillas
+	 * Database: el nombre de la base de datos, en este caso es "guestbook"
  
+ 	![](img/01.png)
+	
 	![](img/18.PNG)
- 	14.	Para probar que esté funcionando, damos click en "save" y luego en "change input" e ingresamos nuestro siguiente JSON y damos click en Apply y luego en Invoke
+	
+ 	14.	Para probar que esté funcionando, damos click en "save" y luego en "change input" e ingresamos nuestro siguiente JSON.
+ 	
 	 ``` json
 		{
 		"nombre": "Isaac Carrada",
@@ -103,17 +107,24 @@ En esta sección configuraremos nuestro servicio de Functions.
 		"comentario": "HOLA MUNDO"
 		}
 	```
+	
+	![](img/02.png)
+	
+	15. Damos click en Apply y luego en Invoke:
+
+	![](img/03.png)
+
 	Una vez hecho esto y nos de una id de activacion correcta, podremos verlo escrito en nuestra base de datos de "Cloudant", en el "Dashboard", en la sección "Documents"
-	![](img/im12.png)
-	![](img/im13.png)
-	![](img/im14.png)
-2. Secuencia de acciones para obtener las entradas de la base de datos
+	
+	![](img/04.png)
+	
+2. **Secuencia de acciones para obtener las entradas de la base de datos** 
 Esta secuencia la usaremos para tomar las entradas de cada usuario y sus respectivos comentarios, regresemos a "Functions/Actions".
 ![](img/im15.png)
-	1.	En nuestra tab de functions creamos una nueva acción Node.js y le ponemos el nombre "set-read-input", siguiendo el mismo proceso que en la acción anterior.
-	![](img/im16.png)
-	![](img/im17.png)
-	![](img/im18.png)
+	1.	En nuestra tab de functions creamos una nueva acción Node.js y le ponemos el nombre **"set-read-input"**, siguiendo el mismo proceso que en la acción anterior.
+	![](img/05.png)
+	![](img/06.png)
+	![](img/07.png)
 	2.	Reemplazamos el código que viene, esta acción pasa los parámetros apropiados a nuestra siguiente acción:
 		``` js
 		function main(params) {
@@ -125,17 +136,20 @@ Esta secuencia la usaremos para tomar las entradas de cada usuario y sus respect
 		}
 		```
 	3. Damos click en "Save" y click en "Enclosing Sequences".
-	![](img/im19.png)
+	![](img/08.png)
 	4. Damos "Add to Sequence" y "Create New" con el nombre "read-guestbook-entries-sequence", y damos click en "Create and Add".
-	![](img/im20.png)
+	![](img/09.png)
 	5. Damos click en el nombre de la secuencia "read-guestbook-entries-sequence".
+	![](img/010.png)
  	6. Damos click en "Add" para crear una segunda acción en la secuencia.
 	7. Seleccionamos "Public" y "Cloudant".
+	![](img/011.png)
  	8.	Seleccionamos "list-documents" en actions y seleccionamos el binding "binding-for-guestbook" y posteriormente damos click en "Add".
-	![](img/im21.png)
+	![](img/012.png)
  	9.	Damos click en "Save" y luego en "Add" para añadir una acción más a la secuencia, esta es la que va a dar el formato de los documentos cuando regresen de Cloudant.
+	![](img/013.png)
 	10.	La nombraremos "format-entries" y posteriormente damos click en "Create and add"
-	![](img/im22.png) 
+	![](img/014.png) 
 	11.	Damos click en "Save" y luego en nuestra accion "format-entries" y reemplazamos el código con:
 		``` js
 		const md5 = require('spark-md5');
@@ -152,34 +166,61 @@ Esta secuencia la usaremos para tomar las entradas de cada usuario y sus respect
 		 };
 		}
 		```
+	![](img/015.png)
 	12.	Salvamos y regresamos a nuestra secuencia para correrla con "invoke" (Esto lo podemos hacer dando click en acciones, y luego en nuestra secuencia, o en "Enclosing Sequence" y luego en nuestra secuencia)
-	![](img/im23.png)
-	![](img/im24.png)
+
+	![](img/017.png)
+
  
 ## Configurar el API
 1.	Dentro de nuestras acciones seleccionamos ambas secuencias y en la tab de "Endpoints" damos click en "Enable Web Action" y damos click en "Save". **Es importante que se haga para cada secuencia**.
-![](img/im25.png)
-![](img/im26.png)
+
+![](img/018.png)
+![](img/019.png)
+
+![](img/020.png)
+
 Y nos quede de la siguiente manera:
-![](img/im27.png)
+
+![](img/021.png)
+
 2.	Nos vamos a el tag "APIs" que esta de lado derecho.
 3.	Damos click en "Create API"
-![](img/im28.png)
+
+![](img/022.png)
+
 4.	En el "API name *" ponemos "guestbook" y en el "Base path for API *" ponemos "/guestbook" y damos click en "create operation"
-![](img/im29.png) 
+
+![](img/023.png) 
+
 5.	Creamos un path que sea /entries ponemos el verbo a GET y seleccionamos la secuencia read-guestbook-entries-sequence y damos click en Create
+
+![](img/024.png) 
  
 6.	Realizamos la misma acción pero ahora con un POST y la secuencia save-guestbook-entries-sequence y damos click en Create
-7.	Salvamos y exponemos la API
+
+![](img/025.png) 
+
+8.	Salvamos y exponemos la API
+
+![](img/026.png) 
  
 ## Despliegue
 1.	Clonamos este repositorio en alguna carpeta de facil acceso
 2.	Modificamos el docs/guestbook.js y reemplazamos el valor de apiUrl con la ruta dada por API Gateway, que obtenemos al dar click en APIs
  
-3.	Hacemos push de esto a un nuevo repositorio
+![](img/028.png) 
+
+![](img/027.png) 
+
+3.	Hacemos push de esto a un nuevo repositorio.
 4.	En el área de Settings>Github Pages, seleccionamos master branch /docs folder
- 
+
+![](img/029.png) 
+
 5.	Podemos entrar a nuestra página en el link que aparece
+
+![](img/030.png) 
 
 [url-ibmcloud]: https://www.ibm.com/cloud/
 [img-cloud-functions]: https://img.shields.io/badge/IBM%20cloud-Functions-red.svg
