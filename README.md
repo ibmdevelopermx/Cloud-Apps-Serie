@@ -49,7 +49,7 @@ Puede tener una implementación continua hacia Kubernetes.
 * [![Git-Continuous-Delivery][img-gitcloud-kCD]][url-gitibmcloud-kCD] Para crear uno.
 
 ## Prework:
-* Cuenta de [IBM Cloud][url-IBMCLOUD]
+* Cuenta de [IBM Cloud](https://ibm.biz/BdfMmv)
 * Instalar [CLI de IBM Cloud][url-CLI-IBMCLOUD] 
 * Cuenta en [GitHub][url-github-join]
 * Instalar [CLI de GitHub][url-github-cli] o instalar [GitHub Desktop][url-githubdesktop]
