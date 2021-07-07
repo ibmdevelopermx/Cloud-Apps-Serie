@@ -28,6 +28,10 @@ Ahora veremos como automatizar los procesos necesarios para el despliegue de la 
 ![](assets/cloudfoundry.PNG)<br/>
 
 6. Nos aseguramos que aparezcan los datos de esta manera (Se genera automáticamente)<br/>
+   Para llenar la parte de URL de github, se recomienda clonar el siguiente [repo][url-repo]<br/>
+
+[url-repo]: https://github.com/ibmdevelopermx/node-hello-world  
+   
 ![](assets/19.png)<br/>
 
 7. Damos clic en el apartado delivery pipeline y creamos una API Key con el botón "New"<br/>
@@ -55,4 +59,4 @@ Y por ultimo el despliegue de la aplicación en un POD<br/>
 
 ![](assets/24.png)<br/>
 
-Si entramos a esta url podremos ver nuestra aplicación corriendo con un simple “Welcome to Bluemix DevOps with Docker, Kubernetes and Helm Charts. Lets go use the Continuous Delivery Service”
+Si entramos a esta url podremos ver nuestra aplicación corriendo con un simple “Hello World”
