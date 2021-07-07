@@ -25,7 +25,7 @@ Ahora veremos como automatizar los procesos necesarios para el despliegue de la 
 ![](assets/16.png)<br/>
 
 5. Usamos el template de Kubernetes con Helm<br/>
-![](assets/17.png)<br/>
+![](assets/cloudfoundry.png)<br/>
 
 6. Nos aseguramos que aparezcan los datos de esta manera (Se genera automáticamente)<br/>
 ![](assets/19.png)<br/>
