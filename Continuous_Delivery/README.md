@@ -1,5 +1,5 @@
-# IBM Kubernetes Continuous Delivery
-Despliega una app en Continuous Delivery utilizando DevOps con Kubernetes y Helm
+# IBM Continuous Delivery
+Despliega una app en Continuous Delivery
 ![](assets/a1.png)<br/>
 
 ## Antes de empezar te recomendamos:
@@ -55,8 +55,8 @@ En caso de que alguno de estos dos comandos no funcione debemos reconfigurar el 
     kubectl cluster-info dump
 Una vez que kubectl cluster info-dump contesta tenemos configurado correctamente kubectl, si en cualquier momento el comando nos regresa un error concerniente a que nuestro request no obtuvo respuesta volvemos a realizar los pasos del troubleshooting.
 
-# DevOps con Kubernetes y Helm
-Ahora veremos como automatizar los procesos necesarios para el despliegue de la aplicación con la herramienta de IBM Cloud “Countinuos delivery”. Esto nos permitira tener nuestro repositorio con una aplicación empaquetadacon Helm. HELM es el manejador de paquetes de Kubernetes que nos ayudara a usar preconfiguraciones para los propositos de automatizar. Ademas este servicio agrega una herramienta especial que revisa las vulenaribilidades de nuestro contenedor.
+# DevOps con Cloud Foundry
+Ahora veremos como automatizar los procesos necesarios para el despliegue de la aplicación con la herramienta de IBM Cloud “Countinuos delivery”. Esto nos permitira tener nuestro repositorio con una aplicación hosteada en el entorno de Cloud Foundry, permitiendo recibir cambios y actualizarlos de manera inmediata.
 
 1. Entramos al dashboard de [**IBM Cloud**](https://cloud.ibm.com/login).<br/>
 2. Entramos al apartado de CATALOG <br/>
