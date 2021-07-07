@@ -11,50 +11,6 @@ Despliega una app en Continuous Delivery
 [url-cupones]: https://github.com/ibmdevelopermx/Cloud-Apps-Serie#Cupones-para-profesores-y-estudiantes
 [url-aplica]: https://github.com/ibmdevelopermx/Cloud-Apps-Serie#Cargar-cr%C3%A9ditos-en-IBM-Cloud
 
-
-## Crear un cluster
-En caso de no tener instalado el plugin container-service, corer el siguiente commando:
-###
-    ibmcloud plugin install container-service -r Bluemix
-Para crear un cluster realizamos el siguiente comando:
-###
-    ibmcloud cs cluster-create --name <name-of-cluster>
-Hacemos login a IBM Cloud:
-###
-    ibmcloud login 
-Corremos el siguiente comando para ver si nuestro cluster esta en un estado “Normal”
-###
-    ibmcloud cs clusters
-Corremos el siguiente comando para ver que nuestros workers estén en un estado “normal” con un estatus “ready”
-###
-    ibmcloud cs workers <yourclustername>
-![](assets/4.png)<br/>
-Tomamos nota de nuestra IP Pública (En mi caso 184.172.234.189)
-## Configuración de kubectl
-En nuestra línea de comandos corremos el siguiente comando:
-###
-    ibmcloud cs cluster-config <yourclustername>
-Debería regresar una línea semejante a la siguiente:
-###
-    SET KUBECONFIG=C:\Users\Your_user\.bluemix\plugins\container-service\clusters\Track10\kube-config-hou02-Track10.yml
-Corremos esta línea, estamos dirigiendo nuestra variable de ambiente hacia el archivo que bajó de nuestra configuración del cluster. Nota: recordar que para usar kubectl siempre tenemos que correr estos dos comandos
-
-Para verificar que kubectl está bien configurado:<br/>
-•	Corremos <i>kubectl cluster-info</i> esto debería regresarnos a que dirección IP está apuntando nuestro kubernetes master<br/>
-•	Corremos <i>kubectl cluster-info dump</i> este comando debería regresarnos un dump de toda la información de nuestro cluster
-
-## Troubleshooting
-En caso de que alguno de estos dos comandos no funcione debemos reconfigurar el kubectl con los siguientes pasos:
-###
-    ibmcloud logout
-    ibmcloud login
-    ibmcloud cs region-set us-south
-    ibmcloud cs cluster-config <yourclustername>
-    Ejecutamos la línea que regresa el último comando (SET KUBECONFIG=C:…..)
-    kubectl cluster-info
-    kubectl cluster-info dump
-Una vez que kubectl cluster info-dump contesta tenemos configurado correctamente kubectl, si en cualquier momento el comando nos regresa un error concerniente a que nuestro request no obtuvo respuesta volvemos a realizar los pasos del troubleshooting.
-
 # DevOps con Cloud Foundry
 Ahora veremos como automatizar los procesos necesarios para el despliegue de la aplicación con la herramienta de IBM Cloud “Countinuos delivery”. Esto nos permitira tener nuestro repositorio con una aplicación hosteada en el entorno de Cloud Foundry, permitiendo recibir cambios y actualizarlos de manera inmediata.
 
